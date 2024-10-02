@@ -1,0 +1,54 @@
+
+.boton3 {
+  color: #00FF00 !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+  background-color: #000 ;
+}
+.boton3:hover {
+  background:red;
+  color: #fff !important;
+  }
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button {background-color:#FF0000;} 
+ul.juan {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.juan li {display: inline;}
+ul.juan li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 22px; 
+}
+ul.juan li a.active {
+    background-color: #000;
+    color: white;
+    border: 1px solid #FF0000;
+   
+}
+ul.juan li a:hover:not(.active) {background-color: #00FF00;}
+
+div.center {text-align: center;}
+
